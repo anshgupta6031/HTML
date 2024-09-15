@@ -1,0 +1,487 @@
+<!DOCTYPE html> <!-- This tells the document type to the browser. -->
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8"> <!-- meta means data about data. And these are meta tags. -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>first code</title>
+</head>
+
+<body>
+
+    <header> <!-- Content in the header tag is supposed to be the upper most(head) part of a web page. -->
+        <h1>Heading 1</h1> <!-- Headings... -->
+        <h2>Heading 2</h2>
+        <h3 hidden>Heading 3</h3>       <!-- The hidden attribute makes the tag hidden/invisible -->
+        <h4>Heading 4</h4>
+        <h5>Heading 5</h5>
+        <h6>Heading 6</h6>
+    </header>
+
+
+
+    <p> Hello world </p> <!-- Paragraphs....... -->
+    <p> <b>Ansh</b>               gupta </p> <!-- <b> is used for bold text..... -->   <!-- HTML do not recognise extra spaces......... -->
+    <p> <i>Ansh</i> </p> <!-- <i> is used for ittalic font style..... -->
+    <p> <u>Guru</u> </p> <!-- <u> is used for underlined text..... -->
+
+
+    <p> <strong>Ansh</strong> gupta </p> <!-- <strong> is used for bold..... -->
+    <p> <em>Ansh</em> </p> <!-- <em> is used for ittalic font style..... -->
+    <!-- In modern style of HTML we use <strong> and <em> (which stands for emphasis) instead of <b> and <i> respectivelly. -->
+            
+    <p> <mark>This is highlighted.</mark> </p>
+    <p>Chemical formula of water is : H<sub>2</sub>O.</p> <!-- '<sub>' tag is used to write text in subscript. -->
+
+    <p>(a+b)<sup>2</sup> = a<sup>2</sup> + b<sup>2</sup> + 2ab</p>
+    <!-- '<sup>' tag is used to write text in superscript. -->
+
+    <p>a&lt;b</p> <!-- '&lt;'(less than) is a name code(HTML entities) for '<' symbol. -->
+    <!-- Similarly, we use '&gt;' for '>'(greater than) symbol. -->
+    <!-- we use '&amp;' for '&'(ampersand) symbol. -->
+    <!-- we use '&quot;' for '"'(quotation) symbol. -->
+
+    <p>Ansh &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; gupta</p> <!-- '&nbsp;'(non breaking space) is a name code for 'space' symbol. -->
+
+    <p>This is a cloud &#9729;</p>  <!-- here we used '&#9729;'(entity code for cloud symbol). -->
+
+    <pre>                       <!-- Whatever is written in this tag is printed on the html document as it is, for example, no spaces are ignored, etc... -->
+ ----->
+ |
+ -----
+     |
+<-----
+    </pre>
+
+    <p>
+        This is a paragraph.This is a paragraph.This is a paragraph.This is a paragraph.
+        This is a paragraph.This is a paragraph.This is a paragraph.This is a paragraph.This is a paragraph.This is a
+        paragraph.
+        This is a paragraph.This is a paragraph.This is a paragraph.This is a paragraph.This is a paragraph.This is a
+        paragraph.
+        <br> This is a paragraph.This is a paragraph.This is a paragraph.This is a paragraph.
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore velit autem consectetur distinctio nulla quasi
+        quidem
+        nisi quos! Doloremque, similique. Error adipisci nulla beatae quia ipsum officiis corporis officia fugiat quas
+        accusamus
+        magnam eos molestiae vel fugit iusto nostrum, expedita, commodi ipsa, esse doloremque obcaecati mollitia
+        temporibus tempore!
+        Doloribus, distinctio?
+        <!-- Use 'lorem' followed by no. of words and it will produce that no. of random words. -->
+        This is a paragraph.This is a paragraph.This is a paragraph.This is a paragraph.This is a paragraph.This is a
+        paragraph.
+        This is a paragraph.This is a paragraph.This is a paragraph.This is a paragraph.This is a paragraph.This is a
+        paragraph.
+    </p>
+
+    <!-- <br> is used to break row. And it does not need a closing tag. -->
+    <!-- 
+        paragraph do not change lines by itself... 
+        and each paragraph is saparated.....
+    -->
+
+    <p>
+        This is a paragraph.This is a paragraph.This is a paragraph.This is a paragraph.
+        This is a paragraph.<b> This is a paragraph.This is a paragraph. </b>
+    </p>
+
+
+    <ul type="square"> <!-- Unordered list -->  <!-- Types in ul are disk, square and circle. -->
+        <li>abcd</li> <!-- List item -->
+        <li>efgh</li>
+        <li>ijkl</li>
+        <li>mnop</li>
+    </ul>
+
+    <ol type="I" start="3"> <!-- Ordered list --> <!-- We can also set the type of ol by the type attribute. -->
+        <li>abcd</li> <!-- List item -->
+        <li>efgh</li>
+        <li>ijkl</li>
+        <li>mnop</li>
+    </ol>
+
+
+    <hr> <!-- 'hr' stands for horizontal rule. It creates a horizontal line on the web page. -->
+
+
+<!--*******************************************************************************************************************************************************************************-->
+
+
+    <div>
+        <!-- '<div>' stands for content division. It is a container element used to hold/group other elements. As here it holds anchor tags. It is a block element. -->
+
+        <a href="https://www.google.com/">Google link is here.</a>
+        <!-- We can create a hyper links using <a href> tag. -->
+        <!-- Here 'a' stands for 'anchor' tag. And 'href' is an attribute which stands for 'hypertext reference'. -->
+
+        <br><br>
+
+        <a href="https://www.amazon.in/" target="_blank">Amazon link is here.</a>
+        <!-- 'target' is an attribute of the anchor tag which when set to '_blank' opens the links in a new tab. -->
+
+        <br><br>
+        <!-- Links on the internet are called Absolute links. Whereas, Links of files within the computer are called Relative links. -->
+
+    </div>
+
+    <span>
+        <!-- '<span>' is same as '<div>'. It is a container element used to hold/group other elements. But it is an Inline element. -->
+        <a href="https://www.google.com/" target="_blank">Google</a>
+        <a href="https://www.amazon.in/" target="_blank">Amazon</a>
+    </span>
+
+
+
+    <center> <img src="image_1.jpeg" alt="Random Image" height="60" width="100"> </center>
+    <!-- Here <center> tag is used for center allignment. -->
+    <!-- This is how we insert an image into a website. 'src' stands for 'source' and 'alt' stands for alternate name of the image. -->
+    <!-- Whenever there is any problem and the image is not displayed, in that case the alternate name is seen to be written besides the image icon. -->
+
+    <br><br>
+
+
+    <a href="https://www.netflix.com/in/" target="_blank">
+        <center> <img src="image_1.jpeg" alt="Random Image" height="60" width="100"> </center>
+    </a>
+    <!-- This is how we link an image to a website. -->
+
+
+    <center><video src="vid_1.mp4" controls height="300px" width="300px" controlslist="nodownload nofullscreen"></video></center>
+
+    <audio src="audio_1.mp3" controls></audio>
+    <br>
+
+    <iframe width="500" height="300" src="https://www.youtube.com/embed/ER9SspLe4Hg?si=t7C0ZgxHNSnDbQYi" title="YouTube video player" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+
+    <hr>
+
+
+<!--*************************************************************************************************************************************************************************************-->
+
+
+    <table border="black" cellspacing="7" cellpadding="7">
+        <caption>Student's data</caption>           <!-- table's name.... -->
+
+        <thead>                         <!-- table semantics.... -->
+            <tr>                        <!-- table row.... -->
+                <th rowspan="2">Roll no.</th>           <!-- table headings.... -->
+                <th rowspan="2">Name</th>
+                <th colspan="3">Marks</th>
+            </tr>
+
+            <tr>
+                <th>English</th>
+                <th>Maths</th>
+                <th>Hindi</th>
+            </tr>
+        </thead>
+        
+
+        <tbody>                         <!-- table semantics.... -->
+            <tr>
+                <td>107</td>                <!-- table data.... -->
+                <td>Ansh gupta</td>
+                <td>69</td>
+                <td>50</td>
+                <td>70</td>
+            </tr>
+
+            <tr>
+                <td>108</td>
+                <td>Guru</td>
+                <td>96</td>
+                <td>52</td>
+                <td>86</td>
+            </tr>
+        </tbody>
+
+
+        <tfoot>                         <!-- table semantics.... -->
+            <tr>
+                <td colspan="2"><strong>Total marks</strong></td>                <!-- table data.... -->
+                <td>165</td>
+                <td>102</td>
+                <td>156</td>
+            </tr>
+        </tfoot>
+
+    </table>
+
+    <!-- row span / column span is the no. of rows / columns space a cell takes. -->
+    <!-- By default row span and column span of a cell is 1. -->
+
+
+    <br><br>
+<!-- Another table....... -->
+
+    <table border="black">
+        <caption>Student Information</caption>
+
+        <tr>
+            <th rowspan="6">Info</th>
+            <th rowspan="2">Name</th>
+            <th colspan="2">Address</th>
+        </tr>
+            
+        <tr>
+            <th>City</th>
+            <th>House</th>
+        </tr>
+    
+        <tr>
+            <td>A</td>
+            <td>Delhi</td>
+            <td>1</td>
+        </tr>
+        
+        <tr>
+            <td>B</td>
+            <td>Mumbai</td>
+            <td>2</td>
+        </tr>
+
+        <tr>
+            <td>C</td>
+            <td>Kolkata</td>
+            <td>3</td>
+        </tr>
+
+        <tr>
+            <td>D</td>
+            <td>Pune</td>
+            <td>4</td>
+        </tr>       
+
+    </table>
+
+
+    <hr>
+
+
+<!--***********************************************************************************************************************************************************-->
+
+
+    <form action="/action" method="post" target="_blank" enctype="application/x-www-form-urlencoded">       <!-- Action attribute is used to define what action needs to be performed when a form is submitted. -->
+                                                                                                            <!-- html forms only support get and post html request which are given by the method attribute. -->
+                                                                                                            <!-- enctype attribute tell the type of data is sent by this form.... -->
+        <div>
+            <label>                             <!-- label connects the input blocks to their caption. -->
+                Username : 
+                <input type="text" placeholder="Username" name="user">     <!-- placeholder shows a pre written text in the input block before the input is given. -->
+                                                                               <!-- The name attribute is associated to the input block as the data when submitted goes as a name, value pair. Where the value is given by the user in the input block. The name value pair can be seen in the url of any website as name=value written.-->
+            </label>                             <!-- The text(username : ) and the input box act as a single entity now. -->    
+        </div>
+
+        <br>
+
+        <div>
+            <!-- Another way of connecting the caption to the input. -->
+            <label for="password">Password : </label>              <!-- for takes up an id given to an element -->
+            <input type="password" placeholder="Password" id="password" name="pass">        <!-- id is a unique name given to an element, same id cannot be given to any other element in a web page. -->
+                                                                            <!-- We see it as "This label is for that id". -->
+        </div>          <!-- It is advised to always connect the label like this only. -->
+
+        <br>
+
+        <div>
+            <label for="age">Age : </label>
+            <input type="number" placeholder="Age" id="age" name="age" min="18" max="50" required>    
+        </div>
+
+        <br>
+
+        <div>
+            <label for="time">Time : </label>
+            <input type="time" id="time" name="time">
+        </div>
+
+        <br>
+
+        <div>
+            <label for="color">Color : </label>
+            <input type="color" id="color" name="color">
+        </div>
+
+        <br>
+
+        <div>
+            <label for="checkbox">Checkbox : </label>
+            <input type="checkbox" id="checkbox" name="checkbox" checked>       <!-- If we write the 'checked' attribute, the checkbox is checked by default. Else it isn't -->
+        </div>
+                                                <!-- there are many more input types in a form. -->
+        <br>
+
+        <div>
+            <button>Log in</button>             <!-- by default whenever this button is pressed it submits the data of the form to the action's file address. -->
+
+            <button type="submit">Submit</button>           <!-- this is the default button type which submits the data of the form to the action's file address. -->
+            <button type="button">Button</button>           <!-- this is a simple button type which doesn't do anything. -->
+            <button type="reset">reset</button>             <!-- This type of button when clicked clears all the form's data. -->
+        </div>
+
+        <br>
+
+        <div>
+            <label for="button">Button : </label>               <!-- this is a button made by input tag. -->
+            <input type="button" id="button" value="Click Me">
+        </div>
+
+        <br>
+
+        <div>
+            <input type="submit">           <!-- if we give the type as submit then by default a submit button is made which actually submits the data of the form to the action's file address. -->
+        </div>
+
+        <!-- It is advised to use button tags to create buttons. -->
+        
+    </form>
+
+
+    <hr>
+
+
+    <form action="https://www.youtube.com/results">         <!-- This is where the input data will be sent, which is the youtube's search bar's address. -->
+
+        <div>
+            <input type="text" placeholder="Search in Youtube" name="search_query">     <!-- 'search_query' is the word which youtube's search bar uses as name for name, value pair. The name=value pair can be seen in the url as we search anything on the search bar -->
+            <button>Search</button>
+        </div>
+
+    </form>
+
+    <br>
+
+    <form action="https://www.google.com/search">         <!-- This is where the input data will be sent, which is the Google's search bar's address. -->
+
+        <div>
+            <input type="text" placeholder="Google Search" name="q">     <!-- 'q' is the word which Google's search bar uses as name for name, value pair. -->
+            <button>Search</button>
+        </div>
+
+    </form>
+
+
+    <hr>
+
+
+    <form action="/action">
+        <div>
+            <label for="apple">Apple </label>
+            <input type="radio" id="apple" name="fruit" value="apple">          <!-- In radio type we can give many options where only one of them can be selected and the selected one's value is sent to the action through the url with the name=value pair. -->
+        </div>                                                                  <!-- In order to group all the radio inputs, their name attribute should be same. -->
+
+        <div>
+            <label for="mango">Mango </label>
+            <input type="radio" id="mango" name="fruit" value="mango">
+        </div>
+
+        <div>
+            <label for="banana">Banana </label>
+            <input type="radio" id="banana" name="fruit" value="banana">
+        </div>
+
+        <br>
+
+    <!-- Similar to the radio input, checkbox can also be made but in checkbox we can choose more than one option.-->
+
+        <div>
+            <label for="eng">English </label>
+            <input type="checkbox" id="eng" name="Sub" value="eng">
+        </div>
+
+        <div>
+            <label for="math">Math </label>
+            <input type="checkbox" id="math" name="Sub" value="math">
+        </div>
+
+        <div>
+            <label for="sci">Science </label>
+            <input type="checkbox" id="sci" name="Sub" value="sci">
+        </div>
+
+        <br>
+
+        <div>
+            <label for="drop down">Choose your profession </label>
+
+            <select name="profession" id="drop down">                       <!-- Select is used to create drop downs in a web page. -->
+
+                <option value="student">Student</option>                    <!-- Whichever option is selected, it is sent to the action by the name value pair. -->
+                <option value="developer">Developer</option>
+                <option selected>Choose your option</option>                <!-- 'selected' is a attribute used to pre set any option as default. -->
+
+            </select>
+        </div>
+
+        <br>
+
+        <div>
+            <label for="vol">Volume control </label>
+            <input type="range" id="vol" name="vol" min="0" max="100" step="10" value="70">         <!-- Range type is used for setting range between min and max attribute through a range slider. 'step' attribute causes the range slider to move in the multiple of step. whereas the 'value' attribute sets a default pre set value on the slider. -->
+        </div>
+
+        <br>
+
+        <div>
+            <label for="text area">Please give your valuable feedback : </label>
+            <textarea name="feedback" id="text area" cols="20" rows="3" placeholder="Write your feedback here."></textarea>         <!-- 'textarea' tag is used to create an area for text to be submitted to the action through the name, value pair. -->
+        </div>
+
+        <div>
+            <input type="submit">                       <!-- Submit button....... -->
+            <input type="reset">reset</input>         <!-- Reset button........ -->
+        </div>
+    </form>
+
+
+    <hr>
+
+
+    <footer> <!-- Content in the footer tag is supposed to be at the lower most part of a web page. -->
+        <a href="image_1.jpeg" target="_blank"> open netflix image. </a> <!-- Relative linking..... -->
+    </footer>
+
+
+</body>
+
+</html>
+
+
+<!-- HTML is not a case sensitive language. -->
+
+<!-- The elements can be classified into two types :-
+
+    1) Block elements :- These are the elements which take up the whole width of the web page and they start from a new line.
+                    For Example :- Heading elements, paragraph element, div element, center.
+
+
+    2) Inline elements :- These are the elements which only take the necessary width and they start in the same line.
+                    For Example :- Anchor tag, image element, span element.
+-->
+
+<!-- The elements can aslo be classified as :-
+
+    1) Semantic Markup :- These are the elements which tell about the type of content they hold.
+                    For Example :- Heading elements(holds a heading), paragraph element(holds a paragraph), image element, Anchor tag.
+                    
+            Advantages of using semantic markup :-
+                1) gives a meaningful and structured layout.
+                2) SEO (search engine optimisation) friendly.
+                3) more readable and improves user experience.
+
+  
+        -> So, to avoid using div tag (for SEO), we use semantic tags such as : header tag, footer tag, main tag, nav tag, article tag, section tag, aside tag.
+
+        -> All the main content of a web page is put under the '<main>.........</main>' tags.
+        -> '<nav>......</nav>' tag is used to hold the navigation links to the other web page.
+        -> '<aside>......</aside>' tag is used to hold the indirectly related navigation links to the other web page.
+        -> Section and article tag can be used simillar to the div/span tag.
+
+        -> Usually we do not make more than one header, footer or main tag in a web page.
+
+
+    2) Non-Semantic Markup :- These are the elements which do not tell about the type of content they hold.
+                    For Example :- div element, span element.
+-->
